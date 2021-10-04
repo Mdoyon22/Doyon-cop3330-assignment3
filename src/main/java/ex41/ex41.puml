@@ -1,0 +1,19 @@
+@startuml
+class nameSorter
+{
+    +FileWriter(output)
+    +namesReader(Scanner input, ArrayList<String> names)
+    +names.add(input.nextLine())
+    +namesOutput(ArrayList<String> names)
+}
+
+class App
+{
+    +names: ArrayList<String>
+    +main(String[])
+    +Scanner(inputFile)
+    +names.sort(String)
+}
+
+nameSorter <|-- App
+@enduml
