@@ -11,15 +11,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
-{
 Sorting function:
-    Has a function that reads data from object created by scanner.
-    Adds data to an array list.
-}
-{
+    1: Has a function that reads data from object created by scanner.
+    2: Adds data to an array list.
+
+
 Printing function:
-    Has a FileWriter for the output file.
-}
+    1: Has a FileWriter for the output file.
 */
 
 public class nameSorter

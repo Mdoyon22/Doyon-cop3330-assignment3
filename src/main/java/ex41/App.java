@@ -11,6 +11,17 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
+
+/*
+Main function:
+    1: Takes input text file.
+    2: Scans data from input text file.
+    3: Declares an array list to store data from file.
+    4: Calls sorting function that reads and sorts.
+    5: Outputs the sorted list into an output text file.
+*/
+
+
 public class App
 {
     public static void main(String[] args) throws FileNotFoundException
