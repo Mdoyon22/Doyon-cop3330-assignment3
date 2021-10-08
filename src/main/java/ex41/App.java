@@ -27,7 +27,7 @@ public class App
     public static void main(String[] args) throws FileNotFoundException
     {
 
-        Scanner inputFile = new Scanner(new File("C:\\Users\\Michael\\Documents\\OOP Projects\\Doyon-cop3330-assignment3\\src\\main\\java\\ex41\\exercise41_input.txt"));
+        Scanner inputFile = new Scanner(new File("./src/main/java/ex41/exercise41_input.txt"));
 
         ArrayList<String> names = new ArrayList<>(); //Array list declaration.
 
