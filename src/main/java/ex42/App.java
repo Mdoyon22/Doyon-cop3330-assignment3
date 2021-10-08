@@ -5,9 +5,6 @@
 
 
 package ex42;
-import java.io.File;
-import java.io.IOException;
-import java.util.*;
 
 
 /*  Main function:
@@ -20,7 +17,7 @@ import java.util.*;
 
 public class App
 {
-    static String path = "C:\\Users\\Michael\\Documents\\OOP Projects\\Doyon-cop3330-assignment3\\src\\main\\java\\ex42\\exercise42_input.txt";
+    static String path = "./src/main/java/ex42/exercise42_input.txt";
 
     public static void main(String[] args)
     {
